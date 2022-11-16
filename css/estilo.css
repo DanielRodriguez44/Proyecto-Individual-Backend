@@ -1,0 +1,210 @@
+
+nav {
+	margin:0%;
+	 padding:10px; 
+	 list-style:none;
+	 position: center;
+}
+
+
+#top{
+	background-color: black;color: white;
+}
+
+#mainav{ background-color: rgba(137, 175, 108, 0.2); text-align: center; padding:25px; font-size: 18px;  }
+#mainav ul{text-transform:uppercase;}
+#mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:inline-block; position:relative; margin:0 30px 0 0; padding:0;}
+
+#contenido{
+	border: 1px solid black;
+	text-align: center;
+	padding: 10%;
+}
+
+#ade{
+	text-align: center;
+	text-shadow: -1px -1px 1px #FFF, 1px 1px 1px #FFF, -2px 2px 1px #FFF, 2px -2px 1px #FFF;
+	height: 100px;
+	margin:auto;
+	background-image: url(http://www.bycenj.edu.mx/05.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+	background-color: white;
+	color: black;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 150px 0 20px;
+	
+	
+}
+
+
+
+.inve{
+	border: 1px solid black;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+#info{
+	text-align: center;
+    font-size: 20px;
+}
+
+img{
+	width: 40px;
+	height: 40px;
+	float:left;
+}
+
+
+#footer{padding:80px 0;}
+
+#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li:last-child{margin:0; padding:0; border:none;}
+#footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
+#footer .linklist li, #footer .linklist li::after{clear:both;}
+
+#footer .contact{}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
+#footer .contact li *{margin:0; padding:0; line-height:1.6;}
+#footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
+
+#under{
+	background-color: white;color: black;
+	padding: 2px;
+	margin-top: 300px;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+
+}
+
+#bycenj{
+	
+	;text-decoration: none;
+}
+a{
+	color: #2E2E2E;
+	font-size: 20px;
+	
+}
+
+a:hover{
+background-color: #F2F2F2;
+
+padding: 0px;
+font-size: 21px;
+color: black;
+text-shadow: none;
+}
+
+a:focus{
+ background-color: #D8D8D8
+
+}
+
+body{
+	background-color:#FAFAFA;
+	margin:  auto;
+	
+
+}
+
+#title{
+	background-color: black;
+
+}
+.row1{
+	padding: 25px;
+	margin: 22px;
+	text-align: center;
+	height: 100px;
+}
+.logobycenj{
+	width: 100px;
+	height: 109px;
+}
+.formreg{
+	color: yellow;
+	text-align: center;
+
+}
+
+#login{
+	margin-top: 200px; 
+	border: none;
+	width: auto; 
+	height: auto; 
+	border-radius: 10px;
+	font-family: sans-serif;
+	text-shadow: -1px -1px 1px #FFF, 1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px 1px 1px #FFF;
+}
+
+input[type=text],input[type=password],input[type=number],input[type=email]{
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border:2px solid  #585858 ;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	text-shadow: -1px -1px 1px #FFF, 1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px 1px 1px #FFF;
+}
+
+input[type=text]:hover,input[type=password]:hover,input[type=number]:hover,input[type=email]:hover{
+width: 280px;
+border-color:#B40404;
+}
+
+input[type=submit],input[type=reset]{
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border:2px solid  #B40404 ;
+	padding: 14px 1px;
+	width: 120px;
+	outline: none;
+	color: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	text-shadow: -1px -1px 1px #FFF, 1px -1px 1px #FFF, -1px 1px 1px #FFF, 1px 1px 1px #FFF;
+} 
+input[type=submit]:hover,input[type=reset]:hover{
+	background-color:rgba(255,44,44,0.4);
+
+}
+
+input[type=submit]:focus,input[type=reset]:focus{
+	background-color:rgba(255,44,44,0.8);
+	border-color: black;
+
+}
+
+
+#e{
+	
+	text-decoration: none;
+
+
+}
+.entregar{
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+}
+.color_de_letras{
+	color: yellow;
+	background-color: rgba(0,0,0,0.9);
+}
