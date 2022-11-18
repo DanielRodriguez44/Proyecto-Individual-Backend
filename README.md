@@ -1,6 +1,6 @@
 ADVISORY POLITECNICO
 
-adjunto vide del funcionamiento entre los archivos y dejo capturas de la pagina
+adjunto video del funcionamiento entre los archivos y dejo capturas de la pagina
 
 ![image](https://user-images.githubusercontent.com/111837051/202589309-1794e3e3-d984-4561-8e6a-a1e89f4e6835.png)
 
